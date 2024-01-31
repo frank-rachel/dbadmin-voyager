@@ -43,6 +43,7 @@ By default, only the Voyager database is listed.
 You may need to change the `driver` option if it is not a MySQL database.
 
 You can also add more databases to the list, or customize the options by providing a callable that returns the options values.
+You could for example return a different set of databases depending on the current user.
 
 ```php
 $dbAdminOptionsGetter = function() {
