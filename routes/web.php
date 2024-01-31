@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\JaxonController;
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Facades\Voyager;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +17,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+    Route::get('/dbadmin', JaxonController::class . '@dbadmin')
+        ->name('jaxon.dbadmin')->middleware('admin.user');
 });

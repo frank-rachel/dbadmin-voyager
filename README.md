@@ -7,3 +7,67 @@ What this package is about is presented here.
 [EN] https://www.jaxon-php.org/blog/2022/01/install-jaxon-dbadmin-on-voyager.html
 
 [FR] https://www.jaxon-php.org/blog/2022/01/installer-jaxon-dbadmin-dans-voyager.html
+
+### Installation
+
+First follow the Voyager installation steps, as described here: https://github.com/thedevdojo/voyager.
+There's no need to install the `tcg/voyager` package, since it is already included with this repo.
+
+Run the Jaxon DbAdmin installer.
+
+> php artisan dbadmin:install
+
+List the databases to be managed in the `config/jaxon.php` file.
+
+```php
+        'packages' => [
+            Lagdo\DbAdmin\App\Package::class => [
+                'template' => 'bootstrap3',
+                'servers' => [
+                    'voyager' => [
+                        'name' => 'Voyager database',
+                        'driver' => 'mysql',
+                        'host' => env('DB_HOST'),
+                        'port' => env('DB_PORT'),
+                        'username' => env('DB_USERNAME'),
+                        'password' => env('DB_PASSWORD'),
+                    ],
+                    // Add more databases here
+                ],
+                'default' => 'voyager',
+            ],
+        ],
+```
+
+By default, only the Voyager database is listed.
+You may need to change the `driver` option if it is not a MySQL database.
+
+You can also add more databases to the list, or customize the options by providing a callable that returns the options values.
+
+```php
+$dbAdminOptionsGetter = function() {
+    return [
+        'template' => 'bootstrap3',
+        'servers' => [
+            'voyager' => [
+                'name' => 'Voyager database',
+                'driver' => 'mysql',
+                'host' => env('DB_HOST'),
+                'port' => env('DB_PORT'),
+                'username' => env('DB_USERNAME'),
+                'password' => env('DB_PASSWORD'),
+            ],
+            // Add more databases here
+        ],
+        'default' => 'voyager',
+    ];
+};
+```
+
+```php
+        'packages' => [
+            Lagdo\DbAdmin\App\Package::class => [
+                'provider' => $dbAdminOptionsGetter,
+            ],
+        ],
+```
