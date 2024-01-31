@@ -1,4 +1,4 @@
-## Intro
+## About
 
 The [Voyager Admin](https://voyager.devdojo.com/) dashboard, with [Jaxon DbAdmin](https://github.com/lagdo/jaxon-dbadmin) included.
 

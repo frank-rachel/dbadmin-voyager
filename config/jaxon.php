@@ -18,6 +18,7 @@ return [
                         'username' => env('DB_USERNAME'),
                         'password' => env('DB_PASSWORD'),
                     ],
+                    // Add more databases here
                 ],
                 'default' => 'voyager',
             ],

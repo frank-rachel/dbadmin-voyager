@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cafa608389ece8a02e04898a9ba3c5a3",
+    "content-hash": "90bcce3120d1cee26dfdf5f054af249d",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -2116,16 +2116,16 @@
         },
         {
             "name": "lagdo/jaxon-dbadmin",
-            "version": "v0.11.1",
+            "version": "v0.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lagdo/jaxon-dbadmin.git",
-                "reference": "cdb481e6f2423eb9cad62758ca43a9d883d7f793"
+                "reference": "579572346553f61559ffb149d697748ca8de48c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lagdo/jaxon-dbadmin/zipball/cdb481e6f2423eb9cad62758ca43a9d883d7f793",
-                "reference": "cdb481e6f2423eb9cad62758ca43a9d883d7f793",
+                "url": "https://api.github.com/repos/lagdo/jaxon-dbadmin/zipball/579572346553f61559ffb149d697748ca8de48c1",
+                "reference": "579572346553f61559ffb149d697748ca8de48c1",
                 "shasum": ""
             },
             "require": {
@@ -2184,7 +2184,7 @@
                 "issues": "https://github.com/lagdo/jaxon-dbadmin/issues",
                 "source": "https://github.com/lagdo/jaxon-dbadmin"
             },
-            "time": "2024-01-25T20:04:41+00:00"
+            "time": "2024-01-31T07:18:47+00:00"
         },
         {
             "name": "lagdo/ui-builder",
