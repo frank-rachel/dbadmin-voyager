@@ -1,8 +1,9 @@
 {
-    "name": "laravel/laravel",
+    "name": "lagdo/dbadmin-voyager",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "The Voyager Admin dashboard, with Jaxon DbAdmin included.",
+    "keywords": ["Database", "Admin", "Sql", "Dashboard", "Jaxon", "Ajax",
+        "PostgreSQL", "MySQL", "Sqlite", "Oracle", "MsSQL", "MongoDb", "Laravel"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
