@@ -19,6 +19,8 @@ Run the Jaxon DbAdmin installer.
 
 List the databases to be managed in the `config/jaxon.php` file.
 
+Learn more about the available options here: https://github.com/lagdo/jaxon-dbadmin.
+
 ```php
         'packages' => [
             Lagdo\DbAdmin\App\Package::class => [
