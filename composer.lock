@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90bcce3120d1cee26dfdf5f054af249d",
+    "content-hash": "904a5d980a0b0c37b61bf8c1e2e7e2f0",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1648,23 +1648,23 @@
         },
         {
             "name": "jaxon-php/jaxon-core",
-            "version": "v4.6.2",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jaxon-php/jaxon-core.git",
-                "reference": "1207228c5ce1b1ef4b3e94c1901defc3682f451f"
+                "reference": "2226e2252861c40bcce9a50d7fc0755527052fb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jaxon-php/jaxon-core/zipball/1207228c5ce1b1ef4b3e94c1901defc3682f451f",
-                "reference": "1207228c5ce1b1ef4b3e94c1901defc3682f451f",
+                "url": "https://api.github.com/repos/jaxon-php/jaxon-core/zipball/2226e2252861c40bcce9a50d7fc0755527052fb4",
+                "reference": "2226e2252861c40bcce9a50d7fc0755527052fb4",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "jaxon-php/jaxon-utils": "^1.1.2",
-                "nyholm/psr7": "^1.5",
-                "nyholm/psr7-server": "^1.0",
+                "nyholm/psr7": "^1.8",
+                "nyholm/psr7-server": "^1.1",
                 "php": ">=7.1",
                 "pimple/pimple": "^3.0",
                 "psr/container": "^1.0|^2.0",
@@ -1725,7 +1725,7 @@
                 "issues": "https://github.com/jaxon-php/jaxon-core/issues",
                 "source": "https://github.com/jaxon-php/jaxon-core"
             },
-            "time": "2024-01-25T20:10:46+00:00"
+            "time": "2024-02-01T08:10:52+00:00"
         },
         {
             "name": "jaxon-php/jaxon-dialogs",
@@ -2116,23 +2116,23 @@
         },
         {
             "name": "lagdo/jaxon-dbadmin",
-            "version": "v0.12.0",
+            "version": "v0.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lagdo/jaxon-dbadmin.git",
-                "reference": "579572346553f61559ffb149d697748ca8de48c1"
+                "reference": "5d245ec2466b5085927ffa011a4a6d6a450d2d1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lagdo/jaxon-dbadmin/zipball/579572346553f61559ffb149d697748ca8de48c1",
-                "reference": "579572346553f61559ffb149d697748ca8de48c1",
+                "url": "https://api.github.com/repos/lagdo/jaxon-dbadmin/zipball/5d245ec2466b5085927ffa011a4a6d6a450d2d1b",
+                "reference": "5d245ec2466b5085927ffa011a4a6d6a450d2d1b",
                 "shasum": ""
             },
             "require": {
                 "ext-iconv": "*",
                 "ext-json": "*",
                 "jaxon-php/jaxon-annotations": "^2.2",
-                "jaxon-php/jaxon-core": "^4.6",
+                "jaxon-php/jaxon-core": "^4.7",
                 "jaxon-php/jaxon-dialogs": "^4.0",
                 "lagdo/dbadmin-driver": "^0.9",
                 "lagdo/ui-builder": "^0.1",
@@ -2184,7 +2184,7 @@
                 "issues": "https://github.com/lagdo/jaxon-dbadmin/issues",
                 "source": "https://github.com/lagdo/jaxon-dbadmin"
             },
-            "time": "2024-01-31T07:18:47+00:00"
+            "time": "2024-02-01T11:29:20+00:00"
         },
         {
             "name": "lagdo/ui-builder",
