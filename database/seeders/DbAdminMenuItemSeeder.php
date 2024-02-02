@@ -19,7 +19,7 @@ class DbAdminMenuItemSeeder extends Seeder
 
         $menuItem = MenuItem::firstOrNew([
             'menu_id' => $menu->id,
-            'title'   => 'Db Admin',
+            'title'   => 'Jaxon Db Admin',
             'url'     => '',
             'route'   => 'jaxon.dbadmin',
         ]);
