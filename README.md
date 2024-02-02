@@ -1,6 +1,8 @@
 ## About
 
-The [Voyager Admin](https://voyager.devdojo.com/) dashboard, with [Jaxon DbAdmin](https://github.com/lagdo/jaxon-dbadmin) included.
+This is [Voyager Admin](https://voyager.devdojo.com/) dashboard, with [Jaxon DbAdmin](https://github.com/lagdo/jaxon-dbadmin) included.
+
+![Database tables in DBAdmin](/img/tables.png "Database tables in DBAdmin")
 
 What this package is about is presented here.
 
