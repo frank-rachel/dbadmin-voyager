@@ -52,9 +52,9 @@ return [
             'app' => [
                 'uri' => '/js',
                 'dir' => public_path('js'),
-                'file' => 'dbadmin-0.0.1b1',
-                'export' => true,
-                'minify' => true,
+                'file' => 'dbadmin-0.0.1b2',
+                'export' => false,
+                'minify' => false,
             ],
         ],
         'dialogs' => [
