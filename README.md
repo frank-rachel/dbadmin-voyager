@@ -12,7 +12,13 @@ What this package is about is presented here.
 
 ### Installation
 
-First follow the Voyager installation steps, as described here: https://github.com/thedevdojo/voyager.
+Clone this repo, and install the dependencies.
+
+```bash
+composer install
+```
+
+Follow the Voyager installation steps, as described here: https://github.com/thedevdojo/voyager.
 There's no need to install the `tcg/voyager` package, since it is already included with this repo.
 
 Run the Jaxon DbAdmin installer.
