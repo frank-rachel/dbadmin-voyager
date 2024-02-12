@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75395f5c58a1ea862c78acf5a4e46943",
+    "content-hash": "4d474465dc5e88ce86d2a3a4c288468a",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -1894,16 +1894,16 @@
         },
         {
             "name": "lagdo/dbadmin-driver",
-            "version": "v0.10.1",
+            "version": "v0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lagdo/dbadmin-driver.git",
-                "reference": "6013bcd8981a87e42ba83ef7996b7f21ca953d08"
+                "reference": "7fab15b062dbc859da69b050a6b7585ff04549ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lagdo/dbadmin-driver/zipball/6013bcd8981a87e42ba83ef7996b7f21ca953d08",
-                "reference": "6013bcd8981a87e42ba83ef7996b7f21ca953d08",
+                "url": "https://api.github.com/repos/lagdo/dbadmin-driver/zipball/7fab15b062dbc859da69b050a6b7585ff04549ec",
+                "reference": "7fab15b062dbc859da69b050a6b7585ff04549ec",
                 "shasum": ""
             },
             "type": "library",
@@ -1935,24 +1935,24 @@
                 "issues": "https://github.com/lagdo/dbadmin-driver/issues",
                 "source": "https://github.com/lagdo/dbadmin-driver"
             },
-            "time": "2024-02-08T04:15:10+00:00"
+            "time": "2024-02-12T05:23:37+00:00"
         },
         {
             "name": "lagdo/dbadmin-driver-mysql",
-            "version": "v0.10.0",
+            "version": "v0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lagdo/dbadmin-driver-mysql.git",
-                "reference": "f87e5bb612c618cc0f5097872220c7f939fc9161"
+                "reference": "a1a226b673469c7d9e7a71abe8415c6b8c013aec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lagdo/dbadmin-driver-mysql/zipball/f87e5bb612c618cc0f5097872220c7f939fc9161",
-                "reference": "f87e5bb612c618cc0f5097872220c7f939fc9161",
+                "url": "https://api.github.com/repos/lagdo/dbadmin-driver-mysql/zipball/a1a226b673469c7d9e7a71abe8415c6b8c013aec",
+                "reference": "a1a226b673469c7d9e7a71abe8415c6b8c013aec",
                 "shasum": ""
             },
             "require": {
-                "lagdo/dbadmin-driver": "^0.10"
+                "lagdo/dbadmin-driver": "^0.11"
             },
             "require-dev": {
                 "behat/behat": "^3.10",
@@ -1994,24 +1994,24 @@
                 "issues": "https://github.com/lagdo/dbadmin-driver-mysql/issues",
                 "source": "https://github.com/lagdo/dbadmin-driver-mysql"
             },
-            "time": "2024-02-08T03:41:12+00:00"
+            "time": "2024-02-12T05:27:30+00:00"
         },
         {
             "name": "lagdo/dbadmin-driver-pgsql",
-            "version": "v0.10.0",
+            "version": "v0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lagdo/dbadmin-driver-pgsql.git",
-                "reference": "0ffc819e94c8d3aef7ffe03687ca3409317e54f2"
+                "reference": "7f4df57500b131f8fcfb4f7e1fad816fb739444a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lagdo/dbadmin-driver-pgsql/zipball/0ffc819e94c8d3aef7ffe03687ca3409317e54f2",
-                "reference": "0ffc819e94c8d3aef7ffe03687ca3409317e54f2",
+                "url": "https://api.github.com/repos/lagdo/dbadmin-driver-pgsql/zipball/7f4df57500b131f8fcfb4f7e1fad816fb739444a",
+                "reference": "7f4df57500b131f8fcfb4f7e1fad816fb739444a",
                 "shasum": ""
             },
             "require": {
-                "lagdo/dbadmin-driver": "^0.10"
+                "lagdo/dbadmin-driver": "^0.11"
             },
             "require-dev": {
                 "behat/behat": "^3.10",
@@ -2053,24 +2053,24 @@
                 "issues": "https://github.com/lagdo/dbadmin-driver-pgsql/issues",
                 "source": "https://github.com/lagdo/dbadmin-driver-pgsql"
             },
-            "time": "2024-02-08T03:41:49+00:00"
+            "time": "2024-02-12T05:27:44+00:00"
         },
         {
             "name": "lagdo/dbadmin-driver-sqlite",
-            "version": "v0.10.0",
+            "version": "v0.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lagdo/dbadmin-driver-sqlite.git",
-                "reference": "ffd418d953b593d7381c07672af903a047659b81"
+                "reference": "d541b388854bc338f17045ad0cbec1f0fb890211"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lagdo/dbadmin-driver-sqlite/zipball/ffd418d953b593d7381c07672af903a047659b81",
-                "reference": "ffd418d953b593d7381c07672af903a047659b81",
+                "url": "https://api.github.com/repos/lagdo/dbadmin-driver-sqlite/zipball/d541b388854bc338f17045ad0cbec1f0fb890211",
+                "reference": "d541b388854bc338f17045ad0cbec1f0fb890211",
                 "shasum": ""
             },
             "require": {
-                "lagdo/dbadmin-driver": "^0.10"
+                "lagdo/dbadmin-driver": "^0.11"
             },
             "require-dev": {
                 "behat/behat": "^3.10",
@@ -2112,20 +2112,20 @@
                 "issues": "https://github.com/lagdo/dbadmin-driver-sqlite/issues",
                 "source": "https://github.com/lagdo/dbadmin-driver-sqlite"
             },
-            "time": "2024-02-08T03:41:42+00:00"
+            "time": "2024-02-12T05:28:01+00:00"
         },
         {
             "name": "lagdo/jaxon-dbadmin",
-            "version": "v0.13.4",
+            "version": "v0.13.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lagdo/jaxon-dbadmin.git",
-                "reference": "44bc721950289a3b43e3f5dce15d8a885ecffe87"
+                "reference": "fd16e374356c22668716392410c256c323778b41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lagdo/jaxon-dbadmin/zipball/44bc721950289a3b43e3f5dce15d8a885ecffe87",
-                "reference": "44bc721950289a3b43e3f5dce15d8a885ecffe87",
+                "url": "https://api.github.com/repos/lagdo/jaxon-dbadmin/zipball/fd16e374356c22668716392410c256c323778b41",
+                "reference": "fd16e374356c22668716392410c256c323778b41",
                 "shasum": ""
             },
             "require": {
@@ -2134,7 +2134,7 @@
                 "jaxon-php/jaxon-annotations": "^2.2",
                 "jaxon-php/jaxon-core": "^4.7",
                 "jaxon-php/jaxon-dialogs": "^4.0",
-                "lagdo/dbadmin-driver": "^0.10",
+                "lagdo/dbadmin-driver": "^0.11",
                 "lagdo/ui-builder": "^0.1",
                 "php": ">=7.1.0"
             },
@@ -2184,7 +2184,7 @@
                 "issues": "https://github.com/lagdo/jaxon-dbadmin/issues",
                 "source": "https://github.com/lagdo/jaxon-dbadmin"
             },
-            "time": "2024-02-08T03:54:32+00:00"
+            "time": "2024-02-12T05:46:17+00:00"
         },
         {
             "name": "lagdo/ui-builder",
