@@ -47,9 +47,10 @@
 		"FrankRachel\\DbAdminVoyager\\": "src/"
 	  },
 	  "exclude-from-classmap": [
-		"app/*", 
+		"app/*",
 		"database/*",
-		"vendor/*" 
+		"vendor/*",
+		"routes/*"
 	  ]
 	},
     "scripts": {
