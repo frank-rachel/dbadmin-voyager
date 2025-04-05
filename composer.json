@@ -1,6 +1,6 @@
 {
     "name": "frank-rachel/dbadmin-voyager",
-    "type": "project",
+    "type": "library",
     "description": "The Voyager Admin dashboard, with Jaxon DbAdmin included.",
     "keywords": [
         "Database",
