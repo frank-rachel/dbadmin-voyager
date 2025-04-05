@@ -15,7 +15,7 @@
         "lagdo/jaxon-dbadmin": "0.13.*",
         "frank-rachel/ui-builder-bootstrap5": "^0.1.5.1",
         "laravel/framework": "^12.0",
-        "laravel/sanctum": "^3.0",
+        "laravel/sanctum": "^3.0|^4.0",
         "laravel/tinker": "^2.7",
         "psr/log": "^1.0",
         "ahmadsyamim/voyager": "^1.10"
